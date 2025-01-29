@@ -101,6 +101,10 @@ input[type="number"] {
   -webkit-appearance: none; /* Removes default Safari styling */
   -moz-appearance: textfield; /* Removes styling in Firefox */
 }
+#text{
+    -webkit-appearance: none; 
+    -moz-appearance: textfield;
+}
 span{
     
 }
