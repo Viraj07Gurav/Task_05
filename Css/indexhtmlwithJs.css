@@ -97,6 +97,9 @@ input{
     font-size: 20px;
     color: white;
 }
+input[type="number"] {
+  -webkit-appearance: none; /* Removes default Safari styling */
+  -moz-appearance: textfield; /* Removes styling in Firefox */
 span{
     
 }
