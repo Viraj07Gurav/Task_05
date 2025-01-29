@@ -69,8 +69,9 @@
         <div class=" text-light p-3 mb-3 " style="background-color: rgb(17, 18, 20);" id="amount">
             <p class="mb-0 Semibold weight text" id="text">Starting amount</p>
             <div style="display: flex; align-items: center; padding: 5px; border-radius: 5px;">
-                <input type="number" id="currency" placeholder="100000 ₽"
-                    style="border: none; outline: none; flex: 1; caret-color: aliceblue;" min="10000" max="10000000" pattern="[0-9]*">
+                <input type="number" id="currency" placeholder="100000" inputmode="numeric" pattern="\d*"
+    style="border: none; outline: none; flex: 1; caret-color: aliceblue;" min="10000" max="10000000">
+
                 <!-- <span>₽</span> -->
             </div>
         </div>
